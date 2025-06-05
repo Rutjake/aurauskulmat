@@ -223,13 +223,13 @@ const MainComponent = () => {
                         </div>
                         <div className={cls.disclaimer}>
                             <p>
-                                **Huom:** Tämä laskuri antaa ohjeellisen arvon. Tarkka pyöränsuuntaus vaatii ammattilaitteistoa,
-                                joka huomioi kaikki ajoneuvon geometriset kulmat, kuten työntökulman. Kotikonstein tehty säätö
-                                on aina karkeampi ja voi vaatia useita kokeiluja.
-                            </p>
-                            <p className={cls.disclaimerText}>
                                 Positiivinen auraus (toe-in) tarkoittaa, että renkaiden etureunat ovat lähempänä toisiaan kuin takareunat.
                                 Negatiivinen auraus (haritus/toe-out) tarkoittaa, että renkaiden etureunat ovat kauempana toisistaan kuin takareunat.
+                            </p>
+                            <p className={cls.disclaimerText}>
+                                <b>**Huom:**</b> Tämä laskuri antaa ohjeellisen arvon. Tarkka pyöränsuuntaus vaatii ammattilaitteistoa,
+                                joka huomioi kaikki ajoneuvon geometriset kulmat, kuten työntökulman. Kotikonstein tehty säätö
+                                on aina karkeampi ja voi vaatia useita kokeiluja. <b>Tämän appilikaation käyttö, pyöräkulmien säätäminen sekä muu hölmöily on täysin käyttäjän omalla vastuulla.</b>
                             </p>
                         </div>
                     </div>
