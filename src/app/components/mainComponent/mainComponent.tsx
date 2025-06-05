@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import cls from "./mainComponent.module.scss";
+import Link from 'next/link';
 
 // Rajapinta laskentatuloksille
 interface AdjustmentResult {
@@ -110,6 +111,7 @@ const MainComponent = () => {
 
     return (
         <div className={cls.container}>
+            <Link href="/userManual/userManualPage" className={cls.textLink}>Ohje</Link>
             <div className={cls.card}>
                 <h1 className={cls.title}>
                     Pyöränsuuntauksen laskuri
