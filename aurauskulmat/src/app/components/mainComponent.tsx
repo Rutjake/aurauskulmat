@@ -117,7 +117,7 @@ const MainComponent = () => {
 
                 <div className={cls.inputGrid}>
                     {/* Takapyörien kokonaisauraus */}
-                    <div className={cls.inputGrid}>
+                    <div className={cls.inputGroup}>
                         <label htmlFor="rearToeInTotal" className={cls.label}>
                             Takapyörien kokonaisauraus (mm):
                         </label>
@@ -196,7 +196,7 @@ const MainComponent = () => {
                 {adjustmentResult && (
                     <div className={cls.resultContainer}>
                         <h2 className={cls.resultTitle}>Laskennan tulokset</h2>
-                        <div className={cls.resyultDetails}>
+                        <div className={cls.resultDetails}>
                             <p>
                                 <span className={cls.resultLabel}>Takapyörän aurauskulma (per pyörä):</span>{' '}
                                 {adjustmentResult.rearToeAngle_deg} astetta
