@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import cls from "./mainComponent.module.scss";
 import Link from 'next/link';
+import Image from 'next/image'
 
 // Rajapinta laskentatuloksille
 interface AdjustmentResult {
@@ -112,11 +113,11 @@ const MainComponent = () => {
     return (
         <div className={cls.container}>
             <Link href="/userManual/userManualPage" className={cls.textLink}>
-            <img
-                    src="/icons/book.svg" // Polku public-kansiosta
+            <Image
+                    src="/icons/book.svg"
                     alt="Takaisin"
-                    width={20} // Aseta leveys
-                    height={20} // Aseta korkeus
+                    width={20} 
+                    height={20}
                     style={{ verticalAlign: 'middle', marginRight: '2px' }} // Tyylit
                 />
                 Ohje

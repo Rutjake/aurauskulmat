@@ -2,12 +2,13 @@
 import React from 'react';
 import cls from './userManual.module.scss';
 import Link from 'next/link';
+import Image from 'next/image'
 
 const UserManualComponent = () => {
     return (
         <div className={cls.container}>
             <Link href="/" className={cls.textLink}>
-                <img
+                <Image
                     src="/icons/arrow_back.svg" // Polku public-kansiosta
                     alt="Takaisin"
                     width={20} // Aseta leveys
