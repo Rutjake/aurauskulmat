@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
     images: {
     unoptimized: true,
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/github.com/Rutjake/aurauskulmat/' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/github.com/Rutjake/aurauskulmat' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/aurauskulmat/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/aurauskulmat' : '',
 };
 
 export default nextConfig;
