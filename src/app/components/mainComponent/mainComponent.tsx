@@ -111,7 +111,16 @@ const MainComponent = () => {
 
     return (
         <div className={cls.container}>
-            <Link href="/userManual/userManualPage" className={cls.textLink}>Ohje</Link>
+            <Link href="/userManual/userManualPage" className={cls.textLink}>
+            <img
+                    src="/icons/book.svg" // Polku public-kansiosta
+                    alt="Takaisin"
+                    width={20} // Aseta leveys
+                    height={20} // Aseta korkeus
+                    style={{ verticalAlign: 'middle', marginRight: '2px' }} // Tyylit
+                />
+                Ohje
+            </Link>
             <div className={cls.card}>
                 <h1 className={cls.title}>
                     Pyöränsuuntauksen laskuri

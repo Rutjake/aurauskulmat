@@ -6,7 +6,16 @@ import Link from 'next/link';
 const UserManualComponent = () => {
     return (
         <div className={cls.container}>
-            <Link href="/" className={cls.textLink}>Takaisin</Link> 
+            <Link href="/" className={cls.textLink}>
+                <img
+                    src="/icons/arrow_back.svg" // Polku public-kansiosta
+                    alt="Takaisin"
+                    width={20} // Aseta leveys
+                    height={20} // Aseta korkeus
+                    style={{ verticalAlign: 'middle', marginRight: '0px' }} // Tyylit
+                />
+                Takaisin
+            </Link>
             <div className={cls.card}>
                 <h1 className={cls.title}>Miten käyttää sovelluksen tulosta mittauksessa</h1>
                 <p className={cls.contentText}>
