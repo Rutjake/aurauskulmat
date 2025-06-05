@@ -105,6 +105,7 @@
     transition-timing-function: ease-in-out;
     border: none;
     cursor: pointer;
+    margin-bottom: 2rem;
 }
 
 .calculateButton:hover {
@@ -145,11 +146,13 @@
 }
 
 .resultDetails {
+    margin-top: 1.5rem;
     line-height: 1.5;
     font-size: 1.125rem;
 }
 
 .resultLabel {
+    margin-top: 2rem;
     font-weight: 600;
     color: #bfdbfe;
 }
