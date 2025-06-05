@@ -1,8 +1,7 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-   output: 'export',
-    images: {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  images: {
     unoptimized: true,
   },
   assetPrefix: process.env.NODE_ENV === 'production' ? '/aurauskulmat/' : '',
