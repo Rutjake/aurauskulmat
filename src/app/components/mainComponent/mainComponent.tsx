@@ -14,6 +14,8 @@ interface AdjustmentResult {
     adjustedFrontToeInPerWheel_mm_raw: number;
 }
 
+const BASE_PATH = process.env.NODE_ENV === 'production' ? '/aurauskulmat' : '';
+
 // Pääkomponentti sovellukselle
 const MainComponent = () => {
     // Tilamuuttujat syötteille
@@ -114,7 +116,7 @@ const MainComponent = () => {
         <div className={cls.container}>
             <Link href="/userManual/userManualPage" className={cls.textLink}>
             <Image
-                    src="/icons/book.svg"
+                    src={`${BASE_PATH}/icons/book.svg`}
                     alt="Ohje"
                     width={20} 
                     height={20}

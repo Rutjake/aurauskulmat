@@ -4,12 +4,14 @@ import cls from './userManual.module.scss';
 import Link from 'next/link';
 import Image from 'next/image'
 
+const BASE_PATH = process.env.NODE_ENV === 'production' ? '/aurauskulmat' : '';
+
 const UserManualComponent = () => {
     return (
         <div className={cls.container}>
             <Link href="/" className={cls.textLink}>
                 <Image
-                    src="/icons/arrow_back.svg"
+                    src={`${BASE_PATH}/icons/arrow_back.svg`}
                     alt="Takaisin"
                     width={20}
                     height={20}
