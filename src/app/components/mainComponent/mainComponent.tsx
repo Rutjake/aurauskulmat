@@ -115,7 +115,7 @@ const MainComponent = () => {
             <Link href="/userManual/userManualPage" className={cls.textLink}>
             <Image
                     src="/icons/book.svg"
-                    alt="Takaisin"
+                    alt="Ohje"
                     width={20} 
                     height={20}
                     style={{ verticalAlign: 'middle', marginRight: '2px' }} // Tyylit
