@@ -2,7 +2,7 @@
 Työkalu toimii apuna kun etupyörien aurausta säädetään kotioloissa.
 
 ## Miten käyttää sovelluksen tulosta mittauksessa
-Kun asennat laserin takavanteen linjaan (ja otat 10 cm etäisyyden huomioon, vaikka se ei suoraan vaikutakaan aurauksen mittaukseen vanteen etu- ja takareunasta, vaan laserin linjan asetteluun), ja mittaat sitten etuvanteen etu- ja takareunasta, sovelluksen antama luku kertoo sinulle, paljonko näiden kahden mittauksen tulisi poiketa toisistaan.
+Kun asennat laserin takavanteen linjaan esimerkiksi 10cm päähän vanteesta (ja otat 10 cm etäisyyden huomioon, vaikka se ei suoraan vaikutakaan aurauksen mittaukseen vanteen etu- ja takareunasta, vaan laserin linjan asetteluun), ja mittaat sitten etuvanteen etu- ja takareunasta, sovelluksen antama luku kertoo sinulle, paljonko näiden kahden mittauksen tulisi poiketa toisistaan.
 
 Sovelluksen tulos "Säätö laserlinjaan nähden (per etupyörä)" ilmoittaa:
 
@@ -22,6 +22,9 @@ Sovelluksen tulos "Säätö laserlinjaan nähden (per etupyörä)" ilmoittaa:
 Sovellus ottaa siis jo huomioon takapyörien aurauksen vaikutuksen ja antaa sinulle sen korjatun arvon, jonka sinun tulee mitata suoraan etupyörästä laserlinjaan nähden.
 
 Muista, että tämä on per pyörä -luku. Jos haluat tarkistaa kokonaisaurauksen, sinun tulee tarkistaa molemmat etupyörät erikseen ja varmistaa, että ohjauspyörä on suorassa auton kulkiessa suoraan.
+
+Applikaatiota voi kokeilla täällä:
+https://rutjake.github.io/aurauskulmat/
 
 ## Getting Started
 
