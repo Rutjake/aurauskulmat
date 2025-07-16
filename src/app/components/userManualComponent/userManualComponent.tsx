@@ -42,24 +42,23 @@ const UserManualComponent = () => {
                 <p className={cls.contentText}>
                     <b>1. Aurausta (toe-in):</b> Jos sovellus antaa tulokseksi esimerkiksi &quot;X mm aurausta&quot;, se tarkoittaa, että etupyörän <b>etureunan tulee olla X mm lähempänä laserlinjaa</b> kuin saman etupyörän takareunan.
                 </p>
-                <ul className={cls.textList}>
+                 <ul className={cls.textList}>
                     <li>
-                        Jos esimerkiksi mittaat laserlinjasta etupyörän <b>takareunaan 100 mm</b>, ja sovellus sanoo &quot;2 mm aurausta&quot;, silloin etupyörän <b>etureunaan tulee mitata 98 mm</b>.
+                        Jos esimerkiksi mittaat laserlinjasta etupyörän <b>takareunaan 100 mm</b>, ja sovellus sanoo &quot;1 mm aurausta per pyörä&quot;, silloin etupyörän<b> etureunaan tulee mitata 101 mm</b>.
                     </li>
                     <li>
-                        (Etureuna 98 mm - Takareuna 100 mm = -2 mm, mikä tarkoittaa 2 mm aurausta.)
+                        (Etureuna 101 mm ja Takareuna 100 mm = +1 mm, mikä tarkoittaa 1 mm aurausta per pyörä.)
                     </li>
                 </ul>
-
                 <p className={cls.contentText}>
                     <b>2. Haritusta (toe-out):</b> Jos sovellus antaa tulokseksi esimerkiksi &quot;Y mm haritusta&quot;, se tarkoittaa, että etupyörän <b>etureunan tulee olla Y mm kauempana laserlinjasta</b> kuin saman etupyörän takareunan.
                 </p>
                 <ul className={cls.textList}>
                     <li>
-                        Jos esimerkiksi mittaat laserlinjasta etupyörän <b>takareunaan 100 mm</b>, ja sovellus sanoo &quot;1 mm haritusta&quot;, silloin etupyörän<b>etureunaan tulee mitata 101 mm</b>.
+                        Jos esimerkiksi mittaat laserlinjasta etupyörän <b>takareunaan 100 mm</b>, ja sovellus sanoo &quot;1 mm haritusta per pyörä&quot;, silloin etupyörän<b> etureunaan tulee mitata 99 mm</b>.
                     </li>
                     <li>
-                        (Etureuna 101 mm - Takareuna 100 mm = +1 mm, mikä tarkoittaa 1 mm haritusta.)
+                        (Etureuna 99 mm ja Takareuna 100 mm = -1 mm, mikä tarkoittaa 1 mm haritusta per pyörä.)
                     </li>
                 </ul>
 
