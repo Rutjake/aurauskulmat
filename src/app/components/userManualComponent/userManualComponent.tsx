@@ -40,7 +40,7 @@ const UserManualComponent = () => {
                     Käytännössä se toimii näin:
                 </p>
                 <p className={cls.contentText}>
-                    <b>1. Aurausta (toe-in):</b> Jos sovellus antaa tulokseksi esimerkiksi &quot;X mm aurausta&quot;, se tarkoittaa, että etupyörän <b>etureunan tulee olla X mm lähempänä laserlinjaa</b> kuin saman etupyörän takareunan.
+                    <b>1. Aurausta (toe-in):</b> Jos sovellus antaa tulokseksi esimerkiksi &quot;X mm aurausta per pyörä&quot;, se tarkoittaa, että etupyörän <b>etureunan tulee olla X mm kauempana laserlinjasta</b> kuin saman etupyörän takareunan.
                 </p>
                  <ul className={cls.textList}>
                     <li>
@@ -51,7 +51,7 @@ const UserManualComponent = () => {
                     </li>
                 </ul>
                 <p className={cls.contentText}>
-                    <b>2. Haritusta (toe-out):</b> Jos sovellus antaa tulokseksi esimerkiksi &quot;Y mm haritusta&quot;, se tarkoittaa, että etupyörän <b>etureunan tulee olla Y mm kauempana laserlinjasta</b> kuin saman etupyörän takareunan.
+                    <b>2. Haritusta (toe-out):</b> Jos sovellus antaa tulokseksi esimerkiksi &quot;Y mm haritusta per pyörä&quot;, se tarkoittaa, että etupyörän <b>etureunan tulee olla Y mm lähempänä laserlinjaa</b> kuin saman etupyörän takareunan.
                 </p>
                 <ul className={cls.textList}>
                     <li>
