@@ -89,9 +89,9 @@ const MainComponent = () => {
             let adjustmentAmount = Math.abs(adjustedFrontToeInPerWheel_mm).toFixed(2); // Pyöristä 2 desimaaliin
 
             if (adjustedFrontToeInPerWheel_mm > 0) {
-                adjustmentDirection = 'aurausta (etureuna lähempänä kuin takareuna)';
+                adjustmentDirection = 'aurausta (etureuna kauempana kuin takareuna)';
             } else if (adjustedFrontToeInPerWheel_mm < 0) {
-                adjustmentDirection = 'haritusta (etureuna kauempana kuin takareuna)';
+                adjustmentDirection = 'haritusta (etureuna lähempänä kuin takareuna)';
             } else {
                 adjustmentDirection = 'ei säätöä tarvita';
                 adjustmentAmount = '0.00';
