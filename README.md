@@ -15,11 +15,11 @@ Sovelluksen tulos "Säätö laserlinjaan nähden (per etupyörä)" ilmoittaa:
   
 ### Käytännössä se toimii näin:
 
-**1. Aurausta (toe-in):** Jos sovellus antaa tulokseksi esimerkiksi "X mm aurausta", se tarkoittaa, että etupyörän **etureunan tulee olla X mm lähempänä laserlinjaa** kuin saman etupyörän takareunan.
+**1. Aurausta (toe-in):** Jos sovellus antaa tulokseksi esimerkiksi "X mm aurausta", se tarkoittaa, että etupyörän **etureunan tulee olla X mm kauempana laserlinjasta** kuin saman etupyörän takareunan.
 - Jos esimerkiksi mittaat laserlinjasta etupyörän **takareunaan 100 mm**, ja sovellus sanoo "1 mm aurausta per pyörä", silloin etupyörän **etureunaan tulee mitata 101 mm**.
 - (Etureuna 101 mm ja Takareuna 100 mm = +1 mm, mikä tarkoittaa 1 mm aurausta per pyörä.)
  
-**2. Haritusta (toe-out):** Jos sovellus antaa tulokseksi esimerkiksi "Y mm haritusta", se tarkoittaa, että etupyörän **etureunan tulee olla Y mm kauempana laserlinjasta** kuin saman etupyörän takareunan.
+**2. Haritusta (toe-out):** Jos sovellus antaa tulokseksi esimerkiksi "Y mm haritusta", se tarkoittaa, että etupyörän **etureunan tulee olla Y mm lähempänä laserlinjaa** kuin saman etupyörän takareunan.
 - Jos esimerkiksi mittaat laserlinjasta etupyörän **takareunaan 100 mm**, ja sovellus sanoo "1 mm haritusta per pyörä", silloin etupyörän **etureunaan tulee mitata 99 mm**.
 - (Etureuna 99 mm ja Takareuna 100 mm = -1 mm, mikä tarkoittaa 1 mm haritusta per pyörä.)
   
