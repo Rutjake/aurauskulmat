@@ -1,4 +1,8 @@
 # Pyöräsuuntauksen laskuri
+<img width="1234" height="1035" alt="image" src="https://github.com/user-attachments/assets/014117ef-e4f3-495c-ae03-01b350f04d47" />
+
+
+
 Työkalu toimii apuna kun ajoneuvon etupyörien aurausta säädetään kotioloissa.
 
 ## Miten käyttää sovelluksen tulosta mittauksessa
