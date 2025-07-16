@@ -22,7 +22,7 @@ const UserManualComponent = () => {
             <div className={cls.card}>
                 <h1 className={cls.title}>Miten käyttää sovelluksen tulosta mittauksessa</h1>
                 <p className={cls.contentText}>
-                    Kun asennat laserin takavanteen linjaan esimerkiksi 10cm päähän vanteesta (ja otat 10 cm etäisyyden huomioon, vaikka se ei suoraan vaikutakaan aurauksen mittaukseen vanteen etu- ja takareunasta, vaan laserin linjan asetteluun), ja mittaat sitten etuvanteen etu- ja takareunasta, sovelluksen antama luku kertoo sinulle, paljonko näiden kahden mittauksen tulisi poiketa toisistaan.
+                    Kun asennat laserin takavanteen linjaan pyörien napojen korkeudelle esimerkiksi 10cm päähän vanteesta (ja otat 10 cm etäisyyden huomioon, vaikka se ei suoraan vaikutakaan aurauksen mittaukseen vanteen etu- ja takareunasta, vaan laserin linjan asetteluun), ja mittaat sitten etuvanteen etu- ja takareunasta, sovelluksen antama luku kertoo sinulle, paljonko näiden kahden mittauksen tulisi poiketa toisistaan.
                 </p>
                 <p className={cls.contentText}>
                     Sovelluksen tulos &quot;Säätö laserlinjaan nähden (per etupyörä)&quot; ilmoittaa:
