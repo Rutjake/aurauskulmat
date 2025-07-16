@@ -68,6 +68,7 @@ const UserManualComponent = () => {
                 <p className={cls.contentText}>
                     Muista, että tämä on per pyörä -luku. Jos haluat tarkistaa kokonaisaurauksen, sinun tulee tarkistaa molemmat etupyörät erikseen ja varmistaa, että ohjauspyörä on suorassa auton kulkiessa suoraan.
                 </p>
+                <p>© Jarno Seppänen 2025</p>
             </div>
         </div>
     )
