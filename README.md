@@ -1,5 +1,6 @@
 # Pyöräsuuntauksen laskuri
-<img width="1234" height="1035" alt="image" src="https://github.com/user-attachments/assets/014117ef-e4f3-495c-ae03-01b350f04d47" />
+<img width="1272" height="1076" alt="image" src="https://github.com/user-attachments/assets/00149434-7812-4c05-9041-7be470150481" />
+
 
 
 
